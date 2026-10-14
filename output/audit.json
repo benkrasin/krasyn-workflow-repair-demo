@@ -1,0 +1,102 @@
+{
+  "syntheticDemo": true,
+  "inputRows": 8,
+  "accepted": 4,
+  "needsReview": 3,
+  "duplicates": 1,
+  "accountedRows": 8,
+  "review": [
+    {
+      "line": 6,
+      "reason": "Email needs correction",
+      "raw": {
+        "name": "Casey Fiction",
+        "email": "casey.example.com",
+        "company": "Fiction Company",
+        "source": "Website"
+      }
+    },
+    {
+      "line": 7,
+      "reason": "Same email, different values; no automatic merge",
+      "raw": {
+        "name": "Changed Name",
+        "email": "alex@example.com",
+        "company": "Sample Design",
+        "source": "Referral"
+      }
+    },
+    {
+      "line": 8,
+      "reason": "Name missing",
+      "raw": {
+        "name": "",
+        "email": "missing@example.com",
+        "company": "Sample Company",
+        "source": "Website"
+      }
+    }
+  ],
+  "duplicateRows": [
+    {
+      "line": 3,
+      "reason": "Exact normalized duplicate",
+      "raw": {
+        "name": "Alex Sample",
+        "email": "alex@example.com",
+        "company": "Sample Design",
+        "source": "Website"
+      }
+    }
+  ],
+  "originalRows": [
+    {
+      "name": "Alex Sample",
+      "email": " ALEX@example.com ",
+      "company": "Sample Design",
+      "source": "Website"
+    },
+    {
+      "name": "Alex Sample",
+      "email": "alex@example.com",
+      "company": "Sample Design",
+      "source": "Website"
+    },
+    {
+      "name": "Morgan Example",
+      "email": "morgan@example.com",
+      "company": "Example Studio",
+      "source": "Referral"
+    },
+    {
+      "name": "Taylor Demo",
+      "email": "taylor@example.com",
+      "company": "Demo Agency",
+      "source": "Website"
+    },
+    {
+      "name": "Casey Fiction",
+      "email": "casey.example.com",
+      "company": "Fiction Company",
+      "source": "Website"
+    },
+    {
+      "name": "Changed Name",
+      "email": "alex@example.com",
+      "company": "Sample Design",
+      "source": "Referral"
+    },
+    {
+      "name": "",
+      "email": "missing@example.com",
+      "company": "Sample Company",
+      "source": "Website"
+    },
+    {
+      "name": "=1+1",
+      "email": "formula@example.com",
+      "company": "Example Studio",
+      "source": "Website"
+    }
+  ]
+}

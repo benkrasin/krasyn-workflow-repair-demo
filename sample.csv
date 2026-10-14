@@ -1,0 +1,9 @@
+name,email,company,source
+Alex Sample, ALEX@example.com ,Sample Design,Website
+Alex Sample,alex@example.com,Sample Design,Website
+Morgan Example,morgan@example.com,Example Studio,Referral
+Taylor Demo,taylor@example.com,Demo Agency,Website
+Casey Fiction,casey.example.com,Fiction Company,Website
+Changed Name,alex@example.com,Sample Design,Referral
+,missing@example.com,Sample Company,Website
+=1+1,formula@example.com,Example Studio,Website
